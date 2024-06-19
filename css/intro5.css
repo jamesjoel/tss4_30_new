@@ -1,0 +1,13 @@
+p b{
+    background-color: red;
+}
+
+#box{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(152, 152, 219);
+}
+
+#box p u{
+    background-color: blue;
+}

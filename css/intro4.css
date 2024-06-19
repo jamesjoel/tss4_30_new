@@ -1,0 +1,11 @@
+body{
+    background-color: #457845;
+}
+
+.demo{
+    color: pink;
+    background-color: blue;
+}
+h1, h2, p, .demo, #hello{
+    background-color: red;
+}
