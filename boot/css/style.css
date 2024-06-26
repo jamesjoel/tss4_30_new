@@ -1,0 +1,8 @@
+.bg-orange{
+    background-color: #FF5733;
+}
+.slider{
+    height: 400px;
+    background-image: url("../images/slider.jpg");
+    background-size: 100% 100%;
+}
