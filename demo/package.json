@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "random-string": "^0.2.0",
+    "random-string-generator-library": "^1.0.0",
+    "simple-string-reverser": "^1.0.1",
+    "string-reverse": "^2.0.0"
+  }
+}
