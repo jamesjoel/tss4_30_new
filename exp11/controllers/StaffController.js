@@ -22,4 +22,17 @@ routes.delete("/:type/:value", async(req, res)=>{
     res.send({ success : true });
 });
 
+
+// http://localhost:3000/api/v1/staff/salary/5000
+
+routes.put("/:type/:value", async(req, res)=>{
+    let type = req.params.type;
+    let value = req.params.value;
+    let where = {};
+    where[type] = value; // { city : "pune" }
+
+    await Staff.updateMany(where, req.body);
+    res.send({ success : true });
+})
+
 module.exports = routes;

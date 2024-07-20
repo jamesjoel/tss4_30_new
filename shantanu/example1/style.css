@@ -1,0 +1,35 @@
+body{
+    background-color: #DF6030;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+}
+.menu{
+    height: 40px;
+    width: 100%;
+    background-color: #732508;
+}
+.content{
+    height: 800px;
+    width: 100%;
+    
+}
+.back-to-top{
+    height: 40px;
+    width: 100%;
+    background-color: #081A73;
+}
+.top-footer{
+    height: 300px;
+    width: 100%;
+    background-color: #732508;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: #000;
+}

@@ -5,3 +5,8 @@ require("mongoose").connect("mongodb://0.0.0.0:27017/tss4_new")
 .catch((err)=>{
     console.log("NOT CONNECTED", err)
 })
+
+/*
+    mongoimport --db dbname --collection collname --file filename --jsonArray
+
+*/
