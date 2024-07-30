@@ -1,25 +1,19 @@
 let express = require("express");
 let app = express();
+let Stu = require("stu");
 
 app.get("/", (req, res)=>{
-    res.sendFile(__dirname+"/home.html")
+    // let result = Stu.find();
+    // res.send(result);
+    Stu.find((result)=>{
+        res.send(result);
+    })
 })
 
-app.get("/about", (req, res)=>{
-    res.sendFile(__dirname+"/about.html")
-})
-
-app.get("/contactus", (req, res)=>{
-    res.sendFile(__dirname+"/contact.html");
-    // res.send("welcome");
-})
-
-
-
-// the .listen() fun is used for create virtual server
 app.listen(3000, ()=>{
-    console.log("server running");
-});
+    console.log("$$$$$$$$$$$$ -- second")
+    console.log("########### -- third")
+})
 
 
 

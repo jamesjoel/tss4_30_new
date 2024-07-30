@@ -1,0 +1,30 @@
+HTML
+    tag, attribute
+    p, h1, img, a, table, tr, td, th, ol, li, ul, li, tbody, thead,
+    form
+        input type="text"
+        input type="password"
+        input type="radio"
+        input type="checkbox"
+        input type="button"
+        input type="reset"
+        input type="submit"
+        input type="file"
+        input type="hidden"
+        <textarea>
+        <select><option>
+
+
+CSS
+    type : externale, internale, inline
+    selector : name, id, class, specific, group
+    properties
+
+Bootstarp
+    intro,
+    grid-system
+    table,
+    alert,
+    button,
+    marging-padding,
+    
