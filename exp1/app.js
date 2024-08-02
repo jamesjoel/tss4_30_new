@@ -5,9 +5,9 @@ let Stu = require("stu");
 app.get("/", (req, res)=>{
     // let result = Stu.find();
     // res.send(result);
-    Stu.find((result)=>{
-        res.send(result);
-    })
+    // Stu.find((result)=>{
+    //     res.send(result);
+    // })
 })
 
 app.listen(3000, ()=>{
