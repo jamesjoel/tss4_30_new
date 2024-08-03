@@ -11,6 +11,8 @@ import Event2 from './components/Event2'
 import Event3 from './components/Event3'
 import Event4 from './components/Event4'
 import Event5 from './components/Event5'
+import Event6 from './components/Event6'
+import User from './components/User'
 
 const App = () => {
 
@@ -30,6 +32,8 @@ const App = () => {
                 <Route path='event3' element={<Event3 />} />
                 <Route path='event4' element={<Event4 />} />
                 <Route path='event5' element={<Event5 />} />
+                <Route path='event6' element={<Event6 />} />
+                <Route path='user' element={<User />} />
             </Routes>
         </div>
         <Footer />
