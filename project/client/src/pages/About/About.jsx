@@ -1,9 +1,30 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Slider from '../../components/Slider/Slider'
 
 const About = () => {
+	let [a, setA] = useState();
+	let [b, setB] = useState();
+
+	let demo = (e)=>{
+		
+		setA(e.target.value);
+	}
+
   return (
     <>
+	<br />
+	<br />
+	<input type='text' onChange={(event)=>demo(event)} value={a} />
+	<h1>{a}</h1>
+	<h1>{b}</h1>
+	<select value={b} onChange={(event)=>setB(event.target.value)}>
+		<option>Red</option>
+		<option>Green</option>
+		<option>Blue</option>
+		<option>Yellow</option>
+	</select>
+	<br />
+	<br />
     <Slider />
     <div className="why-choose-section">
 			<div className="container">
